@@ -1,0 +1,112 @@
+SUPERKLOK LABS NON-COMMERCIAL DEMO ASSET LICENSE V1.0
+Copyright (c) 2026 Trevor Morin / Superklok Labs / TrenchPetals
+
+1. GRANT OF LICENSE & RESTRICTIONS
+
+Subject to the terms and conditions of this License, the original creator 
+(Trevor Morin / Superklok Labs / TrenchPetals) hereby grants to any person 
+obtaining a copy of this distribution—specifically including the flux2klein 
+and flux3klein ComfyUI node workflows, JSON configuration files, and embedded 
+testing prompts—a free, worldwide, non-exclusive, non-transferable, and 
+STRICTLY NON-COMMERCIAL license to run, copy, modify, test, and execute these 
+evaluation workflows.
+
+* Strict Non-Commercial Restriction: You may NOT use these workflows, their 
+  outputs, or any modified variations of them for any commercial purpose, 
+  monetization, paid generation services, or revenue-generating activities.
+
+* Intellectual Property Preservation: This demo license grants no ownership 
+  or permanent distribution rights to the core creative properties. The 
+  "Sunny Chuxem" character design, visual identity, name, and the 
+  "TrenchPetals" universe remain the exclusive intellectual property of 
+  Trevor Morin and Superklok Labs.
+
+2. MANDATORY ATTRIBUTION REQUIREMENT
+
+You must give clear, explicit credit to Trevor Morin / Superklok Labs / 
+TrenchPetals on every non-commercial release, public post, image share, or 
+repository fork that utilizes, builds upon, or showcases outputs from these 
+demo assets.
+
+To satisfy this requirement, you must perform at least one of the following 
+actions on the platform where the content or workflow output is shared:
+
+A) Explicitly include a clickable hyperlink to one of the Official Accounts 
+   listed below.
+B) Tag the official @SuperklokLabs or @TrenchPetals account on that platform.
+C) If the publishing platform does not technically permit the use of external 
+   hyperlinks or user tags, you must prominently display the text: "Created 
+   using assets by Superklok Labs" or "Created using assets by TrenchPetals" 
+   within the content's text description, metadata, or credits.
+
+3. WORKFLOW SPECIFICATIONS & DEPENDENCIES
+
+This license directly covers the structural node design, detailing logic, and 
+evaluation configurations for the following tools provided in this repository:
+
+A) Flux2Klein Workflow Setup
+   - Core Model Target: flux-2-klein-9b-fp8.safetensors
+   - Text Encoder Dependency: qwen_3_8b_fp8mixed.safetensors
+   - Base Execution Profile: 35 Generation Steps, sgm_uniform scheduler, 
+     3.5 Positive FluxGuidance, 1.0 Negative FluxGuidance.
+   - Detailing Pipe Pass: 15 Detailing Steps utilizing karras scheduling logic.
+
+B) Flux3Klein Workflow Setup
+   - Core Model Target: flux3-image-klein-int8-convrot.safetensors
+   - Text Encoder Dependency: flux-3-image-klein-text_encoder-FP8.safetensors
+   - Base Execution Profile: 40 Generation Steps, beta scheduler, 
+     4.5 Positive FluxGuidance, 0.0 Negative FluxGuidance.
+   - Detailing Pipe Pass: 20 Detailing Steps utilizing beta scheduling logic.
+
+4. INDEPENDENT EXPRESSION & NO ENDORSEMENT
+
+Any public use or display of workflow outputs by a third party represents the 
+sole expression and liability of that independent user. The original creator 
+does not monitor, review, pre-approve, or endorse any user-generated content 
+or custom prompts executed through these demo workflows.
+
+5. RESERVATION OF RIGHTS FOR CUSTOM & COMMERCIAL DERIVATIVES
+
+The original creator (Trevor Morin / Superklok Labs / TrenchPetals) explicitly 
+retains all rights to issue separate, exclusive, or proprietary commercial 
+licenses for modified, refined, or high-tier variations of these assets, 
+models, and character IPs to individual third parties via independent 
+private contracts.
+
+6. DISCLAIMER OF WARRANTY
+
+THE WORKFLOWS AND ASSETS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO 
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, 
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORKFLOWS OR THE USE OR OTHER 
+DEALINGS IN THE WORKFLOWS.
+
+7. LIMITATION OF LIABILITY & INDEMNIFICATION
+
+IN NO EVENT SHALL THE ORIGINAL CREATOR BE LIABLE FOR ANY CLAIM, DAMAGES, ACTION, 
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE ASSETS, THE USE OF THE ASSETS, 
+OR THE ILLEGAL, OFFENSIVE, OR DEFAMATORY CONDUCT OF ANY THIRD PARTY USING THE 
+ASSETS.
+
+By executing these workflows, you agree to indemnify, defend, and hold harmless 
+the original creator from any liabilities, losses, or legal costs arising from 
+content creations that violate local, national, or international laws.
+
+OFFICIAL ACCOUNTS FOR ATTRIBUTION:
+
+Superklok Labs:
+- GitHub: https://github.com/Superklok
+- X (Twitter): https://x.com/SuperklokLabs
+- Instagram: https://www.instagram.com/superkloklabs
+- TikTok: https://www.tiktok.com/@superklok
+- YouTube: https://www.youtube.com/@superklok
+- LinkedIn: https://www.linkedin.com/in/superklok
+
+TrenchPetals:
+- YouTube: https://www.youtube.com/@TrenchPetals
+- X (Twitter): https://x.com/TheTrenchPetals
+- Instagram: https://www.instagram.com/trenchpetals
+- TikTok: https://www.tiktok.com/@trenchpetals
